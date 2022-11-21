@@ -1,0 +1,11 @@
+/* Media Queries (Medium Devices) */
+
+@media screen and (max-width: 1024px) {
+    /* header {
+        height: 68vh; 
+    } */
+}
+
+/* Media Queries (Small Devices) */
+
+@media screen and (max-width: 600px) {}
