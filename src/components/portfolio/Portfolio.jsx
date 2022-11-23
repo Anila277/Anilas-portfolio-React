@@ -1,62 +1,47 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/fahad1.png'
-import IMG2 from '../../assets/fahad1.png'
-import IMG3 from '../../assets/fahad1.png'
-import IMG4 from '../../assets/fahad1.png'
-import IMG5 from '../../assets/fahad1.png'
+import IMG1 from '../../assets/get-it-done.png'
+import IMG2 from '../../assets/fantasies.png'
+import IMG3 from '../../assets/is-funsy.png'
+import IMG4 from '../../assets/pot-of-flowers.png'
 
 
 const data = [
     {
         id: 1,
         image: IMG1,
-        title: 'Is Funsy',
-        github: 'https://github.com',
-        demo: 'https://images.unsplash.com/photo-1520209759809-a9bcb6cb3241?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+        title: 'Get It Done!',
+        github: 'https://github.com/Anila277/ToDo-App',
+        demo: 'https://todo-app-91.herokuapp.com/'
     },
     {
         id: 2,
-        image: IMG1,
-        title: 'Is Funsy',
-        github: 'https://github.com',
-        demo: 'https://images.unsplash.com/photo-1520209759809-a9bcb6cb3241?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+        image: IMG2,
+        title: 'Fantasies',
+        github: 'https://github.com/Anila277/Fantasies-App',
+        demo: 'https://fantasies-a-poetry-escape.netlify.app/'
     },
     {
         id: 3,
-        image: IMG1,
+        image: IMG3,
         title: 'Is Funsy',
-        github: 'https://github.com',
-        demo: 'https://images.unsplash.com/photo-1520209759809-a9bcb6cb3241?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+        github: 'https://github.com/Anila277/Is-Funsy',
+        demo: 'https://anila277.github.io/Is-Funsy/'
     },
     {
         id: 4,
-        image: IMG1,
-        title: 'Is Funsy',
-        github: 'https://github.com',
-        demo: 'https://images.unsplash.com/photo-1520209759809-a9bcb6cb3241?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+        image: IMG4,
+        title: 'Pot Of Flowers',
+        github: 'https://github.com/Anila277/Pot-of-Flowers',
+        demo: 'https://pot-of-flowers.herokuapp.com/'
     },
-    {
-        id: 5,
-        image: IMG1,
-        title: 'Is Funsy',
-        github: 'https://github.com',
-        demo: 'https://images.unsplash.com/photo-1520209759809-a9bcb6cb3241?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
-    },
-    {
-        id: 6,
-        image: IMG1,
-        title: 'Is Funsy',
-        github: 'https://github.com',
-        demo: 'https://images.unsplash.com/photo-1520209759809-a9bcb6cb3241?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
-    }
 ]
 
 const Portfolio = () => {
     return (
         <section id='portfolio'>
-            <h5>My Recent Work</h5>
-            <h2>Portfolio</h2>
+            {/* <h5>Portfolio</h5> */}
+            <h2>My Recent Work</h2>
 
             <div className="container portfolio__container">
                 {
