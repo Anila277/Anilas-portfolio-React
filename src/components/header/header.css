@@ -52,6 +52,9 @@ header {
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
+
+
+
 /* scroll down */
 
 .scroll__down {
@@ -66,9 +69,9 @@ header {
 /* Media Queries (Medium Devices) */
 
 @media screen and (max-width: 1024px) {
-    /* header {
-        height: 68vh; 
-    } */
+    header {
+        height: 68vh;
+    }
 }
 
 /* Media Queries (Small Devices) */

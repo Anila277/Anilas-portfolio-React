@@ -6,79 +6,89 @@ const Experience = () => {
     return (
         <section id='experience'>
             {/* <h5>What Skills I have</h5> */}
-            <h2>My Experience</h2>
+            <h2>My Skills</h2>
 
             <div className="container experience__container">
                 <div className="experience__frontend">
-                    <h3>Frontend Development</h3>
+                    {/* <h3>Frontend Development</h3> */}
                     <div className="experience__content">
-                        <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
-                            <div>
-                                <h4>HTML</h4>
-                                <small className='text-light'>Experienced</small>
-                            </div>
-                        </article>
-                        <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
-                            <div>
-                                <h4>JAVASCRIPT</h4>
-                                <small className='text-light'>Experienced</small>
-                            </div>
-                        </article>
-                        <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
-                            <div>
-                                <h4>REACT</h4>
-                                <small className='text-light'>Experienced</small>
-                            </div>
-                        </article>
 
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
                             <div>
-                                <h4>CSS</h4>
-                                <small className='text-light'>Experienced</small>
-                            </div>
-                        </article>
-
-                        <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
-                            <div>
-                                <h4>PYTHON</h4>
-                                <small className='text-light'>Intermediate</small>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                    class="" />
                             </div>
                         </article>
                         <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
                             <div>
-                                <h4>DJANGO</h4>
-                                <small className='text-light'>Intermediate</small>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                    class="" />
                             </div>
                         </article>
-
+                        <article className='experience__details'>
+                            <div>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+                                    class="" />
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <div>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+                                    class="" />
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <div>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+                                    class="" />
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <div>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                                    class="" />
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <div>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+                                    class="" />
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <div>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg"
+                                    class="" />
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <div>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                    class="" />
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <div>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+                                    class="" />
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <div>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg"
+                                    class="" />
+                            </div>
+                        </article>
+                        <article className='experience__details'>
+                            <div>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                                    class="" />
+                            </div>
+                        </article>
                     </div>
                 </div>
 
-                <div className="experience__backend">
-                    <h3>Backend Development</h3>
-                    <div className="experience__content">
-                        <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
-                            <div>
-                                <h4>Node JS</h4>
-                                <small className='text-light'>Experienced</small>
-                            </div>
-                        </article>
-                        <article className='experience__details'>
-                            <BsPatchCheckFill className='experience__details-icon' />
-                            <div>
-                                <h4>MongoDB</h4>
-                                <small className='text-light'>Intermediate</small>
-                            </div>
-                        </article>
-                    </div>
-                </div>
+
             </div>
         </section>
     )
