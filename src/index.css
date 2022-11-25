@@ -118,6 +118,25 @@ img {
     object-fit: cover;
 }
 
+.switch {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    justify-content: right;
+    align-items: center;
+    padding-right: 10rem;
+}
+
+.swith label {}
+
+#light {
+    /* background-color: #f3ebf6; */
+}
+
+#dark {
+    background-color: #3a064d;
+}
+
 /* Media Queries (Medium Devices) */
 
 @media screen and (max-width: 1024px) {

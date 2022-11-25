@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import About from './components/about/About'
@@ -8,21 +8,37 @@ import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import { createContext } from 'react'
+import ReactSwitch from 'react-switch'
+
+export const ThemeContext = createContext('null');
 
 const App = () => {
-    return (
-        <>
-            <Header />
-            <Nav />
-            <About />
-            <Experience />
-            {/* <Services /> */}
-            <Portfolio />
-            {/* <Testimonials /> */}
-            <Contact />
-            <Footer />
+    const [theme, setTheme] = useState('dark');
 
-        </>
+    const toggleTheme = () => {
+        setTheme((curr) => (curr === 'light' ? 'dark' : 'light'));
+    };
+    return (
+        <ThemeContext.Provider value={{ theme, toggleTheme }}>
+            <div className='mode' id={theme}>
+                <div className="switch">
+                    <label>{theme === 'light' ? 'Light Mode' : 'Dark Mode'} </label>
+                    <ReactSwitch onChange={toggleTheme} checked={theme === 'dark'} />
+
+                </div>
+                <Header />
+                <Nav />
+                <About />
+                <Experience />
+                {/* <Services /> */}
+                <Portfolio />
+                {/* <Testimonials /> */}
+                <Contact />
+                <Footer />
+
+            </div>
+        </ThemeContext.Provider>
     )
 }
 
