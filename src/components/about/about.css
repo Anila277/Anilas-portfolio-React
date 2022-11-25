@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+
 }
 
 .about__me {
@@ -14,6 +15,8 @@
             transparent);
     display: grid;
     place-items: center;
+    border: 2px solid red;
+
 }
 
 .about__me-image {
@@ -33,6 +36,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
+
 }
 
 .about__card {
@@ -113,5 +117,10 @@
 
     .about__content p {
         margin: 1.5rem 0;
+    }
+
+    .about__me-image {
+        width: 23rem;
+        height: 23rem;
     }
 }
