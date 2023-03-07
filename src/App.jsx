@@ -23,7 +23,7 @@ const App = () => {
         <ThemeContext.Provider value={{ theme, toggleTheme }}>
             <div className='mode' id={theme}>
                 <div className="switch">
-                    <label>{theme === 'light' ? 'Light Mode' : 'Dark Mode'} </label>
+                    <label>{theme === 'light' ? '' : ''} </label>
                     <ReactSwitch onChange={toggleTheme} checked={theme === 'dark'} />
 
                 </div>
