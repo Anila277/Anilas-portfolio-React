@@ -1,6 +1,6 @@
 import React from 'react'
 import './testimonials.css'
-import IMG1 from '../../assets/fahad1.png'
+// import IMG1 from '../../assets/fahad1.png'
 
 import { Pagination } from 'swiper';
 
@@ -12,27 +12,27 @@ import 'swiper/css/pagination';
 
 const data = [
     {
-        avatar: IMG1,
+        // avatar: IMG1,
         name: 'Fahad Nisar',
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, voluptatibus nobis.'
     },
     {
-        avatar: IMG1,
+        // avatar: IMG1,
         name: 'Fahad Nisar',
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, voluptatibus nobis.'
     },
     {
-        avatar: IMG1,
+        // avatar: IMG1,
         name: 'Fahad Nisar',
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, voluptatibus nobis.'
     },
     {
-        avatar: IMG1,
+        // avatar: IMG1,
         name: 'Fahad Nisar',
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, voluptatibus nobis.'
     },
     {
-        avatar: IMG1,
+        // avatar: IMG1,
         name: 'Fahad Nisar',
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, voluptatibus nobis.'
     },
