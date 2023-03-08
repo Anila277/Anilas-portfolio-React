@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Anilas-portfolio-React/static/css/main.baa397a5.css",
+    "main.js": "/Anilas-portfolio-React/static/js/main.e42a1ee4.js",
+    "static/media/fantasies.png": "/Anilas-portfolio-React/static/media/fantasies.dd4fa3c091d1324bd2aa.png",
+    "static/media/photo.jpg": "/Anilas-portfolio-React/static/media/photo.d94cef5deda1dfc8ef74.jpg",
+    "static/media/pot-of-flowers.png": "/Anilas-portfolio-React/static/media/pot-of-flowers.2e5625d12787f50765b8.png",
+    "static/media/is-funsy.png": "/Anilas-portfolio-React/static/media/is-funsy.aac214f3a64a5c21fe7a.png",
+    "static/media/Resume.pdf": "/Anilas-portfolio-React/static/media/Resume.da24035682ad189e0e76.pdf",
+    "static/media/get-it-done.png": "/Anilas-portfolio-React/static/media/get-it-done.87f1bd3ae74f5dcf84a2.png",
+    "index.html": "/Anilas-portfolio-React/index.html",
+    "main.baa397a5.css.map": "/Anilas-portfolio-React/static/css/main.baa397a5.css.map",
+    "main.e42a1ee4.js.map": "/Anilas-portfolio-React/static/js/main.e42a1ee4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.baa397a5.css",
+    "static/js/main.e42a1ee4.js"
+  ]
+}
