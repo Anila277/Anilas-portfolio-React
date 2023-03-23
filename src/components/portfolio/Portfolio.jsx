@@ -33,7 +33,7 @@ const data = [
         image: IMG4,
         title: 'Pot Of Flowers',
         github: 'https://github.com/Anila277/Pot-of-Flowers',
-        demo: 'https://pot-of-flowers.herokuapp.com/'
+        demo: 'https://pot-of-flowers.onrender.com/'
     },
 ]
 
