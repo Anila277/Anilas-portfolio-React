@@ -22,6 +22,7 @@ header {
 
 /* Header Socials */
 .header__socials {
+    size: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,6 +30,7 @@ header {
     position: absolute;
     left: 0;
     bottom: 19rem;
+    font-size: 40px;
 }
 
 .header__socials::after {
@@ -71,7 +73,7 @@ h3 {
     bottom: 22rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1.9rem;
 }
 
 /* Media Queries (Medium Devices) */

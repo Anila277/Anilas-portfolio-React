@@ -26,6 +26,12 @@
     row-gap: 2rem;
 }
 
+.experience__details:hover img {
+    transform: rotate(15deg) scale(1.5);
+    border-radius: 25px;
+    background: radial-gradient(ellipse at top, #e9a5a5, transparent), radial-gradient(ellipse at bottom, #92c767, transparent);
+}
+
 .experience__details {
     display: flex;
     gap: 4rem;
