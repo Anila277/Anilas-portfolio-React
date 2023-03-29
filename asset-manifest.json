@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.baa397a5.css",
-    "main.js": "/static/js/main.bee4cf99.js",
+    "main.css": "/static/css/main.4e3c26c0.css",
+    "main.js": "/static/js/main.ae2fd1f4.js",
     "static/media/fantasies.png": "/static/media/fantasies.dd4fa3c091d1324bd2aa.png",
     "static/media/photo.jpg": "/static/media/photo.d94cef5deda1dfc8ef74.jpg",
     "static/media/pot-of-flowers.png": "/static/media/pot-of-flowers.2e5625d12787f50765b8.png",
+    "static/media/calculator.png": "/static/media/calculator.eb65a1bce30374e06c53.png",
     "static/media/is-funsy.png": "/static/media/is-funsy.aac214f3a64a5c21fe7a.png",
     "static/media/Resume.pdf": "/static/media/Resume.da24035682ad189e0e76.pdf",
     "static/media/get-it-done.png": "/static/media/get-it-done.87f1bd3ae74f5dcf84a2.png",
+    "static/media/ping-pong.png": "/static/media/ping-pong.b863152ed352c158de33.png",
     "index.html": "/index.html",
-    "main.baa397a5.css.map": "/static/css/main.baa397a5.css.map",
-    "main.bee4cf99.js.map": "/static/js/main.bee4cf99.js.map"
+    "main.4e3c26c0.css.map": "/static/css/main.4e3c26c0.css.map",
+    "main.ae2fd1f4.js.map": "/static/js/main.ae2fd1f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.baa397a5.css",
-    "static/js/main.bee4cf99.js"
+    "static/css/main.4e3c26c0.css",
+    "static/js/main.ae2fd1f4.js"
   ]
 }
