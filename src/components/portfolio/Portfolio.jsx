@@ -9,13 +9,13 @@ import IMG6 from '../../assets/calculator.png'
 
 
 const data = [
-    {
-        id: 1,
-        image: IMG1,
-        title: 'Get It Done!',
-        github: 'https://github.com/Anila277/ToDo-App',
-        demo: 'https://todo-app-91.herokuapp.com/'
-    },
+    // {
+    //     id: 1,
+    //     image: IMG1,
+    //     title: 'Get It Done!',
+    //     github: 'https://github.com/Anila277/ToDo-App',
+    //     demo: 'https://todo-app-91.herokuapp.com/'
+    // },
     {
         id: 2,
         image: IMG2,
