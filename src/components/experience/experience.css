@@ -4,9 +4,10 @@
 }
 
 .experience__container>div {
+    border: 2px solid rgb(247, 232, 232);
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
-    border-radius: 2rem;
+    border-radius: 4rem;
 }
 
 .experience__container>div:hover {
@@ -29,7 +30,8 @@
 .experience__details:hover img {
     transform: rotate(15deg) scale(1.5);
     border-radius: 25px;
-    background: radial-gradient(ellipse at top, #e9a5a5, transparent), radial-gradient(ellipse at bottom, #92c767, transparent);
+    background: white;
+    /* radial-gradient(ellipse at top, #e9a5a5, transparent), radial-gradient(ellipse at bottom, #92c767, transparent); */
 }
 
 .experience__details {
