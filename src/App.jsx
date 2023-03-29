@@ -11,10 +11,12 @@ import Footer from './components/footer/Footer'
 import { createContext } from 'react'
 import ReactSwitch from 'react-switch'
 
+
 export const ThemeContext = createContext('null');
 
 const App = () => {
-    const [theme, setTheme] = useState('dark');
+
+    const [theme, setTheme] = useState('light');
 
     const toggleTheme = () => {
         setTheme((curr) => (curr === 'light' ? 'dark' : 'light'));

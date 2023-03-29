@@ -29,7 +29,6 @@ const header = () => {
                             loop
                         />
                     </h1>
-                    {/* <img src={ME} alt="me" /> */}
                 </div>
 
                 <a href="#contact" className='scroll__down'>Scroll Down</a>

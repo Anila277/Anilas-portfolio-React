@@ -38,7 +38,7 @@ const about = () => {
                         an open mind while keeping the user in mind to improve the overall experience.
                     </p>
 
-                    <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+                    {/* <a href="#contact" className='btn btn-primary'>Let's Talk</a> */}
                 </div>
             </div>
         </section >
