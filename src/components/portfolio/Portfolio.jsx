@@ -4,6 +4,8 @@ import IMG1 from '../../assets/get-it-done.png'
 import IMG2 from '../../assets/fantasies.png'
 import IMG3 from '../../assets/is-funsy.png'
 import IMG4 from '../../assets/pot-of-flowers.png'
+import IMG5 from '../../assets/ping-pong.png'
+import IMG6 from '../../assets/calculator.png'
 
 
 const data = [
@@ -34,6 +36,20 @@ const data = [
         title: 'Pot Of Flowers',
         github: 'https://github.com/Anila277/Pot-of-Flowers',
         demo: 'https://pot-of-flowers.onrender.com/'
+    },
+    {
+        id: 5,
+        image: IMG5,
+        title: 'Ping-Pong!',
+        github: 'https://github.com/Anila277/ToDo-App',
+        demo: 'https://anila277.github.io/ping-pong-Game-JS/'
+    },
+    {
+        id: 6,
+        image: IMG6,
+        title: 'Calculator',
+        github: 'https://github.com/Anila277/javascriptCalc',
+        demo: ''
     },
 ]
 
