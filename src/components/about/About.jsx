@@ -3,6 +3,8 @@ import './about.css'
 import { FaAward } from 'react-icons/fa'
 import { BsCodeSlash } from 'react-icons/bs'
 import { VscFolderLibrary } from 'react-icons/vsc'
+import CTA from './CTA'
+
 
 
 const about = () => {
@@ -37,6 +39,7 @@ const about = () => {
                         libraries and frameworks such as React and Bootstrap. Ability to approach each project with
                         an open mind while keeping the user in mind to improve the overall experience.
                     </p>
+                    <CTA />
 
                     {/* <a href="#contact" className='btn btn-primary'>Let's Talk</a> */}
                 </div>
